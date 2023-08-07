@@ -8,7 +8,7 @@ function Weather() {
   const [bothTemp,setBoth]=useState({min:'',max:''})
   
   useEffect(()=>{
-    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=dc73b19a6f4be39d9f906019fbfddb9c`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=WEATHERAPIKEY`)
     .then( res=>{
       setTemp(res.data.main.temp);
       
