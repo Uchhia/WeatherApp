@@ -1,0 +1,109 @@
+.header{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 55%;
+    width: 70%;
+    border: 1px solid white;
+    border-radius:25px ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    
+  &::-webkit-search-cancel-button {
+    padding-right: 15px;
+  }
+}
+
+.content{
+    
+    height: 80px;
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon{
+    height: 80%;
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon i{
+    color: white;
+}
+.city{
+    
+    height: 80%;
+    width: 40%;
+    font-size: 50px;
+    color: white;
+    
+}
+.footer1{
+    
+    height: 30px;
+    text-align: center;
+}
+.footer1 h1{
+    height: 29px;
+    color: white;
+    font-size: 1.5rem;
+}
+.footer2{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+.footer2 h3{
+    color: white;
+    font-size: 0.9rem;
+}
+
+@media(max-width:600px){
+    .wrapper{
+        height: 50vh;
+        width: 100vw;
+    }
+    .header{
+        padding-top: 7vh;
+        height: 10vh;
+        width: 100vw;
+    }
+    input{
+        height:85% ;
+        width: 70vw;
+        font-size: 3.2rem;
+
+    }
+    .content{
+        
+        height: 12vh;
+        width: 100vw;
+    }
+    .footer1{
+        
+        margin-top: 10px;
+        height: 6vh;
+    }
+    .footer1 h1{
+        font-size: 2rem;
+    }
+    .footer2{
+        height: 4vh;
+        width: 100vw;
+       
+    }
+    .footer2 h3{
+        font-size: 1.3rem;
+    }
+}
